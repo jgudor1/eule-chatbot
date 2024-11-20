@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<!-- Initial Greeting -->
+<category>
+    <pattern>LOAD INITIAL GREETING</pattern>
+    <template>Hello! I’m here to help you explore potential job options in computing based on your interests and strengths. You can tell me things like "I enjoy coding," "I’m interested in data," or ask, "How much does a Software Developer earn?" Let’s get started!</template>
+</category>
+
+<!-- Responding to User Greeting -->
+<category>
+    <pattern>HELLO</pattern>
+    <template>Hi! I’m excited to help you explore computing career paths. You can tell me what interests you, share your strengths, or ask about career salaries!</template>
+</category>
+
+<category>
+    <pattern>HI</pattern>
+    <template>Hi there! Let me know what area of computing interests you, or ask me how much a specific career can earn. You can also share your strengths to get started.</template>
+</category>
+
+<!-- Asking About User Strengths -->
+<category>
+    <pattern>WHAT ARE MY STRENGTHS</pattern>
+    <template>Your strengths are unique to you! Think about what you enjoy most in computer science. Do you like coding, analyzing data, or working with networks? Share what you enjoy, and I’ll suggest careers that align with your strengths.</template>
+</category>
+
+<category>
+    <pattern>I DON'T KNOW MY STRENGTHS</pattern>
+    <template>No problem! Reflect on tasks you’ve enjoyed in your classes or projects. Do you prefer building things, solving problems, or working with systems? Let me know, and I can help you identify potential career paths.</template>
+</category>
+
+<category>
+    <pattern>I'M NOT SURE WHAT I LIKE</pattern>
+    <template>That’s okay! Many students feel this way. You could explore broad fields like software development or data analysis to see what interests you. Tell me what you enjoy in your studies or hobbies.</template>
+</category>
+
+<!-- Strengths -->
+<category>
+    <pattern>MATH</pattern>
+    <template>Math skills are valuable in many computing roles! Careers like AI/ML Engineer, Data Analyst, or Cybersecurity Analyst often require strong mathematical abilities. Would you like to learn more about one of these paths?</template>
+</category>
+
+<category>
+    <pattern>PROBLEM SOLVING</pattern>
+    <template>Problem-solving is a crucial skill in computing! Roles like Software Developer, Cybersecurity Analyst, and Systems Administrator heavily rely on this strength. Let me know if you’d like more details on these careers.</template>
+</category>
+
+<category>
+    <pattern>ANALYSIS</pattern>
+    <template>If you’re skilled at analysis, you might enjoy careers like Data Analyst, Systems Administrator, or AI/ML Engineer. These roles involve interpreting data, solving complex problems, and improving systems. Which one interests you?</template>
+</category>
+
+<category>
+    <pattern>LOGICAL THINKING</pattern>
+    <template>Logical thinking is essential for roles like Software Developer and AI/ML Engineer. These careers involve building systems and solving problems in a structured way. Would you like to explore one of these options?</template>
+</category>
+
+<category>
+    <pattern>COMMUNICATION</pattern>
+    <template>Strong communication skills are vital in roles like Data Analyst and Systems Administrator. Explaining technical concepts and collaborating with teams are key parts of these jobs. Would you like more details on these paths?</template>
+</category>
+
+<category>
+    <pattern>DETAIL ORIENTED</pattern>
+    <template>Being detail-oriented is a great strength for careers like Cybersecurity Analyst and Data Analyst, where precision is critical. Interested in learning more about these roles?</template>
+</category>
+
+<category>
+    <pattern>CREATIVITY</pattern>
+    <template>Creativity is a valuable strength for Software Developers and AI/ML Engineers. These roles often involve designing innovative solutions and building new technologies. Would you like to explore one of these careers?</template>
+</category>
+
+<!-- Single-Word -->
+<category>
+    <pattern>CODING</pattern>
+    <template>If you’re interested in coding, a Software Developer role might be ideal. Software Developers build applications and solve problems through code. Would you like to know more about this path or its salary?</template>
+</category>
+
+<category>
+    <pattern>DATA</pattern>
+    <template>Working with data is a valuable skill! Careers like Data Analyst or AI/ML Engineer could be great for you. Data Analysts interpret data to make insights, while AI/ML Engineers use data to train models. Would you like to know more about their responsibilities or salaries?</template>
+</category>
+
+<category>
+    <pattern>SECURITY</pattern>
+    <template>Cybersecurity is crucial in protecting data and systems. You might enjoy a career as a Cybersecurity Analyst, where you secure networks and prevent cyber threats. Would you like to learn more about the role or how much it pays?</template>
+</category>
+
+<category>
+    <pattern>NETWORKING</pattern>
+    <template>If you enjoy working with networks, you might like a career as a Systems Administrator. This role involves managing and maintaining computer networks. Interested in learning more about this career or its salary?</template>
+</category>
+
+<!-- Career Descriptions -->
+<category>
+    <pattern>WHAT DOES A SOFTWARE DEVELOPER DO</pattern>
+    <template>A Software Developer designs, creates, and tests software applications or systems. This role requires strong coding skills and involves solving problems creatively. It's ideal if you enjoy coding and building things!</template>
+</category>
+
+<category>
+    <pattern>WHAT DOES A DATA ANALYST DO</pattern>
+    <template>A Data Analyst collects, processes, and analyzes data to help companies make better decisions. If you enjoy working with data and finding insights, this could be a good path for you.</template>
+</category>
+
+<category>
+    <pattern>WHAT DOES A CYBERSECURITY ANALYST DO</pattern>
+    <template>A Cybersecurity Analyst protects an organization’s systems and data from cyber threats. This role involves identifying vulnerabilities and implementing security measures. It’s perfect for those who like solving puzzles and staying ahead of cyber threats.</template>
+</category>
+
+<category>
+    <pattern>WHAT DOES A SYSTEMS ADMINISTRATOR DO</pattern>
+    <template>A Systems Administrator manages and maintains computer systems and networks to ensure they operate efficiently. This role suits people who like managing networks and troubleshooting technical issues.</template>
+</category>
+
+<category>
+    <pattern>WHAT DOES AN AI ML ENGINEER DO</pattern>
+    <template>An AI/ML Engineer builds algorithms and models that enable machines to learn and make decisions. This role requires strong programming and data skills and is ideal if you’re interested in artificial intelligence and machine learning.</template>
+</category>
+
+<!-- Salary Information -->
+<category>
+    <pattern>HOW MUCH DOES A SOFTWARE DEVELOPER EARN</pattern>
+    <template>A Software Developer typically earns between $70,000 and $120,000 per year, depending on experience and location. Let me know if you’d like to learn more about this career.</template>
+</category>
+
+<category>
+    <pattern>HOW MUCH DOES A DATA ANALYST EARN</pattern>
+    <template>A Data Analyst generally earns between $60,000 and $100,000 annually. Salaries can vary based on experience, industry, and location.</template>
+</category>
+
+<category>
+    <pattern>HOW MUCH DOES A CYBERSECURITY ANALYST EARN</pattern>
+    <template>Cybersecurity Analysts often earn between $75,000 and $120,000 per year. This can vary depending on certifications and level of expertise.</template>
+</category>
+
+<category>
+    <pattern>HOW MUCH DOES A SYSTEMS ADMINISTRATOR EARN</pattern>
+    <template>Systems Administrators typically earn between $60,000 and $90,000 annually, depending on experience and the size of the organization.</template>
+</category>
+
+<category>
+    <pattern>HOW MUCH DOES AN AI ML ENGINEER EARN</pattern>
+    <template>AI/ML Engineers often earn between $100,000 and $150,000 per year. This field is highly specialized and offers competitive salaries for skilled professionals.</template>
+</category>
+
+<category>
+    <pattern>HOW MUCH CAN I EARN</pattern>
+    <template>Salaries vary greatly depending on the career path you choose. For example, Software Developers typically earn $70,000–$120,000, while AI/ML Engineers can earn $100,000–$150,000. Let me know a specific role you’re interested in for more details.</template>
+</category>
+
+<!-- Multiple Word Interests with Wildcards -->
+<category>
+    <pattern>* LIKE * CODE</pattern>
+    <template>If you enjoy coding, a career as a Software Developer might be a great fit for you. Software Developers create applications, websites, and software. Would you like to learn more?</template>
+</category>
+
+<category>
+    <pattern>* LIKE CODING</pattern>
+    <template>If you enjoy coding, a career as a Software Developer might be a great fit for you. Software Developers create applications, websites, and software. Would you like to learn more?</template>
+</category>
+
+<category>
+    <pattern>* ENJOY PROGRAMMING</pattern>
+    <template>Programming skills are essential for many computing jobs. Software Development or AI/ML Engineering could be great options for you, as both fields involve creating and improving software through programming.</template>
+</category>
+
+<!-- Interest in Data and Analysis -->
+<category>
+    <pattern>* LIKE * DATA</pattern>
+    <template>Working with data is a valuable skill! You may be interested in a career as a Data Analyst or an AI/ML Engineer. Data Analysts interpret data to help make decisions, while AI/ML Engineers build models that learn from data.</template>
+</category>
+
+<category>
+    <pattern>* * INTERESTED IN DATA</pattern>
+    <template>Data-related roles are in high demand. Consider looking into Data Analyst or AI/ML Engineering positions, where data skills are used to derive insights and build intelligent systems.</template>
+</category>
+
+<!-- Interest in Security -->
+<category>
+    <pattern>* * INTERESTED IN * SECURITY</pattern>
+    <template>Security is a growing field in computing! A career as a Cybersecurity Analyst could be ideal for you. Cybersecurity Analysts protect systems and data from unauthorized access and cyber attacks. Let me know if you’d like to explore this further.</template>
+</category>
+
+<category>
+    <pattern>* LIKE CYBERSECURITY</pattern>
+    <template>Cybersecurity is essential in protecting data and networks. A career as a Cybersecurity Analyst might be a great match for you, as it involves securing systems and responding to cyber threats.</template>
+</category>
+
+<!-- Interest in Systems and Networking -->
+<category>
+    <pattern>* LIKE NETWORKS</pattern>
+    <template>If you enjoy working with networks, you might like a career as a Systems Administrator. Systems Administrators manage and maintain networked systems to ensure reliability and performance. Interested in learning more?</template>
+</category>
+
+<category>
+    <pattern>* * GOOD WITH NETWORKS</pattern>
+    <template>Networking skills are valuable in many roles. You might want to explore careers like Systems Administrator, where you can manage network operations and ensure systems run smoothly.</template>
+</category>
+
+<category>
+    <pattern>* * GOOD WITH * NETWORKS</pattern>
+    <template>Networking skills are valuable in many roles. You might want to explore careers like Systems Administrator, where you can manage network operations and ensure systems run smoothly.</template>
+</category>
+
+<!-- Questions about Specific Careers -->
+<category>
+    <pattern>WHAT DOES * SOFTWARE DEVELOPER * DO</pattern>
+    <template>A Software Developer designs, creates, and tests software applications or systems. This role requires strong coding skills and involves solving problems creatively. It's ideal if you enjoy coding and building things!</template>
+</category>
+
+<category>
+    <pattern>WHAT DOES * DATA ANALYST DO</pattern>
+    <template>A Data Analyst collects, processes, and analyzes data to help companies make better decisions. If you enjoy working with data and finding insights, this could be a good path for you.</template>
+</category>
+
+<category>
+    <pattern>WHAT DOES * CYBERSECURITY ANALYST DO</pattern>
+    <template>A Cybersecurity Analyst protects an organization’s systems and data from cyber threats. This role involves identifying vulnerabilities and implementing security measures. It’s perfect for those who like solving puzzles and staying ahead of cyber threats.</template>
+</category>
+
+<category>
+    <pattern>WHAT DOES * SYSTEMS ADMINISTRATOR DO</pattern>
+    <template>A Systems Administrator manages and maintains computer systems and networks to ensure they operate efficiently. This role suits people who like managing networks and troubleshooting technical issues.</template>
+</category>
+
+<category>
+    <pattern>WHAT DOES * AI/ML ENGINEER DO</pattern>
+    <template>An AI/ML Engineer builds algorithms and models that enable machines to learn and make decisions. This role requires strong programming and data skills and is ideal if you’re interested in artificial intelligence and machine learning.</template>
+</category>
+
+<!-- Encouraging Next Steps -->
+<category>
+    <pattern>WHAT SHOULD I DO NEXT</pattern>
+    <template>Once you’ve identified a career path, consider looking into internships, certifications, or advanced coursework to strengthen your qualifications. Would you like recommendations for resources or programs?</template>
+</category>
+
+<!-- Goodbye -->
+<category>
+    <pattern>GOODBYE</pattern>
+    <template>Goodbye! I hope this chat helped you consider some career paths. Remember, exploring different roles is part of finding the right fit. Best of luck with your future!</template>
+</category>
+
+<category>
+    <pattern>THANK YOU</pattern>
+    <template>You’re very welcome! I’m glad I could help. Feel free to reach out if you have more questions. Good luck with your career journey!</template>
+</category>
+
+</aiml>
